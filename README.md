@@ -2,6 +2,33 @@
 
 A powerful full-stack application that helps optimize AWS costs using 15 advanced cost-reduction techniques. Built with Python/Flask backend and React frontend.
 
+## ⚠️ Important Notice - BETA VERSION
+
+**This project is currently in BETA and still under development. Please read the following before using:**
+
+### 🚨 PRODUCTION AWS KEYS WARNING
+- **DO NOT USE YOUR PRODUCTION AWS KEYS** with this application
+- Always use a **separate IAM user** with minimal required permissions for testing
+- I am **NOT responsible** for any accidental deletions, data loss, or issues that may occur to your production AWS services
+- The author assumes **zero liability** for any damages or costs incurred from using this tool
+
+### 🐛 Known Issues & Limitations
+- This is a **BETA release** and may contain bugs
+- Not all edge cases have been tested
+- Some AWS regions may have incomplete support
+- Error handling is still being improved
+- Use **DRY-RUN mode first** before executing any real operations
+
+### ✅ Recommendations
+1. **Test with a dedicated AWS account** or development environment only
+2. **Always use DRY-RUN mode first** to preview changes
+3. **Carefully review findings** before executing optimizations
+4. **Keep your AWS credentials secure** and rotate them regularly
+5. **Report bugs** by opening an issue on GitHub
+6. **Start with simple optimizations** (EBS volumes, snapshots) before complex ones
+
+---
+
 ## Features ✨
 
 ### 🔐 Security & Credential Management
