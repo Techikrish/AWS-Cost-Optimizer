@@ -1,0 +1,122 @@
+# Virtual Environments
+aws/
+venv/
+env/
+ENV/
+.venv
+__pycache__/
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js & NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.npm
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.atom/
+.netbeans/
+.settings/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# AWS & Credentials
+~/.aws_optimizer/
+credentials.enc
+.key
+aws_credentials
+
+# Build & Distribution
+/dist
+/build
+/.next
+/out
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+.tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific
+test/Screenshot*.png
+.screenshots/
+*.pyc
+__pycache__
+.cache
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Parcel related files
+.cache/
+dist/
+.parcel-cache
+.parcel-cache/
+
+# Production
+/build
+/dist
