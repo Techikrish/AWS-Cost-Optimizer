@@ -212,33 +212,29 @@ For security, create a dedicated IAM user with minimal required permissions:
 
 See the application in action:
 
-### 1. Login Screen
-![Login Page](test/Screenshot%20from%202026-01-14%2012-46-25.png)
-*User enters AWS credentials and selects region*
+### 1. Home Page
+![Home Page](test/homepage.png)
+*Beautiful login screen where users enter AWS credentials and select region*
 
-### 2. Mode Selection
-![Mode Selection Modal](test/Screenshot%20from%202026-01-14%2012-49-02.png)
-*Choose between Safe Dry-Run mode or Live mode for analysis*
+### 2. Analysis Mode Selection
+![Analysis Mode Selection](test/analysismodeselection.png)
+*Choose between Safe Dry-Run mode (preview) or Live mode (actual deletion) for analysis*
 
 ### 3. Optimization Techniques
-![Techniques Grid](test/Screenshot%20from%202026-01-14%2012-52-25.png)
+![Optimization Technique](test/optimization%20technique.png)
 *Beautiful grid showing all 15 optimization techniques ready to analyze*
 
-### 4. Analysis Results - Resource List
-![Analysis Results Part 1](test/Screenshot%20from%202026-01-14%2014-34-01.png)
-*Detailed findings showing identified resources and potential savings*
+### 4. Confirm Deletion Dialog
+![Confirm Deletion](test/confirmdeletion.png)
+*Safe confirmation dialog requiring service name typing before optimization in Live mode*
 
-### 5. Confirmation Dialog
-![Confirmation Dialog](test/Screenshot%20from%202026-01-14%2014-36-45.png)
-*Safe confirmation before optimization with service name verification*
+### 5. Removed Resources
+![Removed Resources](test/removedresource.png)
+*Detailed view showing successfully removed resources with cost savings breakdown*
 
-### 6. Optimization in Progress
-![Optimization Progress](test/Screenshot%20from%202026-01-14%2014-37-03.png)
-*Real-time progress showing optimization execution*
-
-### 7. Final Results
-![Optimization Results](test/Screenshot%20from%202026-01-14%2014-37-21.png)
-*Summary showing successful optimizations and cost savings*
+### 6. JSON Report Export
+![JSON Report](test/jsonreport.png)
+*Professional JSON export of findings for integration with other tools and reporting*
 
 ## API Endpoints
 
@@ -343,16 +339,6 @@ Contributions are welcome! Areas for improvement:
 - Multi-account support
 - Scheduled analysis
 
-## License
-
-MIT License - Free for personal and commercial use
-
-## Support
-
-For issues, questions, or feature requests:
-1. Check the troubleshooting section
-2. Review AWS IAM permissions
-3. Check application logs in backend console
 
 ---
 
